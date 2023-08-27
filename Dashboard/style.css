@@ -1,0 +1,255 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Archivo:ital@1&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+  font-family: 'Archivo';
+}
+
+
+
+
+
+
+
+    
+
+body{
+    height:100vh;
+    display:flex;
+   justify-content: space-between;
+   background-color: #f9fbff;
+    
+}
+/* division1 */
+.division1{
+    width:25%;
+    display:flex;
+    flex-direction:column;
+    border-right:2px solid #ebedf2;
+    
+} 
+.division1 .logo{
+   display: flex;
+     align-items: center;
+  height: 88.9px;
+    background-color: white;
+}
+.division1 .logo img{
+    padding: 25px 40px;
+}
+.division1 .dashboard-content{
+   
+    display: flex;
+   flex-direction: column;
+   gap:40px;
+   padding:100px 0px 0px 40px;
+   
+}
+.division1 .dashboard-content .header{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 38px;
+    
+}
+.division1 .dashboard-content 
+.dash-items-container{
+    display: flex;
+    flex-direction: column;
+     gap:40px;
+     
+}
+.division1 .dashboard-content .dash-item{
+    display: flex;
+    gap:8px;
+    
+    
+}
+.division1 .dashboard-content .dash-item.transaction{
+    padding: 12px 0px;
+     background-color: white;
+    border-right: 4px solid black;
+    
+ }
+.division1 .dashboard-content .dash-item h2{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+ .division1 .dashboard-content .dash-item.transaction h2{
+     font-weight: 700;
+ }
+/* division2 */
+.division2 {
+    width:100%;
+    display:flex;
+    flex-direction:column;
+   
+   
+    
+   
+   
+}
+.division2 .nav{
+    display:flex;
+    justify-content:space-between;
+    padding:24px 40px;
+    background-color: white;
+    
+}
+.division2 .left-nav{
+    width:40%;
+  
+}
+.division2 .left-nav input{
+    padding:8px 16px ;
+    width:100%;
+    border:1px solid #8B8B8C;
+    border-radius: 12px;
+    outline: none;
+}
+.division2 .left-nav input:placeholder{
+    
+}
+.division2 .right-nav{
+    display: flex;
+    gap:20px;
+  
+}
+.division2  .headerT{
+    display: none;
+}
+.division2 .transaction-details{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 20px;
+    margin-bottom: 20px;
+    
+}
+.division2 .transaction-details .text{
+     display: flex;
+     height: 100px;
+     align-items: center;
+    
+}
+.division2 .transaction-details .text h2{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 38px;
+   }
+   .division2 .transaction-details .tabs{
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       width:85%;
+       padding:  16px;
+       border-radius: 48px;
+       gap: 8px;
+       background-color: #f2f5fa;
+  
+   }
+.division2 .transaction-details .tabs h2{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+}
+.division2 .transaction-details .tabs .withdrawal{
+    padding: 8px 16px;
+    background-color: #353538;
+    border-radius: 9999px;
+    color: white;
+}
+.division2 .table{
+    padding: 0px 20px;
+   
+
+    
+}
+.division2 .table table{
+   background-color: white;
+   width: 100%;
+   display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 730px;
+    border-radius: 12px;
+   }
+
+.division2 .table tr {
+    display: flex;
+    padding: 0px 20px;
+    justify-content: space-between;
+    height: 66px;
+   
+    margin-bottom: 20px;
+    align-items: center;
+
+}
+.division2 .table tr td{
+font-size : 16px;
+    font-weight: 400;
+    line-height: 24px;
+  
+}
+.division2 .table .header td{
+   
+   font-size : 20px;
+    font-weight: 500;
+    line-height: 30px;
+  }
+  .division2 .table .header {
+  background-color: #f3f5f8;
+
+  }
+ 
+.division2 .table .success-text{
+    color: #00AA55;
+    padding:12px;
+    background-color: #E6EEFE;
+    border-radius: 16px;
+}
+.division2 .table .failed-text{
+    color: #fA3246;
+    padding:12px;
+    background-color: #ffebed;
+    border-radius: 16px;
+}
+
+.division2 .table .success{
+   
+    background-color: #f9fbff;
+}
+.division2 .table .pending-text{
+    color: #043CAC;
+    background-color: #E6EEFE;
+    padding: 12px;
+    border-radius: 16px;
+}
+/* img-fixed */
+.relative{
+    position: relative;
+}
+.message {
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+}
+.numbers{
+ margin:  40px 0px;
+    display: flex;
+    gap:15px;
+    justify-content: end;
+    align-items: center;
+    padding-right:40px ;
+    
+   }
+   .numbers .num{
+       padding: 12px;
+       background-color: whitesmoke;
+       border-radius: 2px;
+       
+   }
+   .numbers .one.num{
+      border: 1px solid black;
+   }
+
